@@ -1,0 +1,60 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+body{
+    margin: 0; 
+    background-image:url('blueyellow.jpg');
+    background-color: #ffc525;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0
+}
+
+
+.circle-button {
+  width:300px;       
+  height: 200px;    
+  border-radius: 50%; 
+  background-color: #1e6395; 
+  color: rgb(255, 255, 255);              
+  border: 5px;              
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 29px;         
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  text-align:center;
+  margin:400px;
+  justify-content: center;
+  padding-top:100px;
+}
+
+.circle-button:hover {
+  background-color: #fff23b;
+}
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+}
+
